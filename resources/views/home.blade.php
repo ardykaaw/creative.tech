@@ -3,30 +3,29 @@
 <head>
   <meta charset="utf-8">
   <title>Reveal Bootstrap Template</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
 
   <!-- Favicons -->
-  <link href="{{ asset('landing-page/img/favicon.png" rel="icon')}}">
-  <link href="{{ asset('landing-page/img/apple-touch-icon.png" rel="apple-touch-icon')}}">
+  <link rel="icon" href="{{ asset('landing-page/img/favicon.png') }}">
+  <link rel="apple-touch-icon" href="{{ asset('landing-page/img/apple-touch-icon.png') }}">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-  <link href="{{ asset('landing-page/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet')}}">
+  <link rel="stylesheet" href="{{ asset('landing-page/lib/bootstrap/css/bootstrap.min.css') }}">
 
   <!-- Libraries CSS Files -->
-  <link href="{{ asset('landing-page/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet')}}">
-  <link href="{{ asset('landing-page/lib/animate/animate.min.css" rel="stylesheet')}}">
-  <link href="{{ asset('landing-page/lib/ionicons/css/ionicons.min.css" rel="stylesheet')}}">
-  <link href="{{ asset('landing-page/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet')}}">
-  <link href="{{ asset('landing-page/lib/magnific-popup/magnific-popup.css" rel="stylesheet')}}">
-  <link href="{{ asset('landing-page/lib/ionicons/css/ionicons.min.css" rel="stylesheet')}}">
+  <link rel="stylesheet" href="{{ asset('landing-page/lib/font-awesome/css/font-awesome.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('landing-page/lib/animate/animate.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('landing-page/lib/ionicons/css/ionicons.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('landing-page/lib/owlcarousel/assets/owl.carousel.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('landing-page/lib/magnific-popup/magnific-popup.css') }}">
 
   <!-- Main Stylesheet File -->
-  <link href="{{ asset('landing-page/css/style.css')}}" rel="stylesheet">
+  <link rel="stylesheet" href="{{ asset('landing-page/css/style.css') }}">
 
   <!-- =======================================================
     Theme Name: Reveal
@@ -76,7 +75,7 @@
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
+          <li class="menu-has-children"><a href="#">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li><a href="#">Drop Down 3</a></li>
@@ -103,12 +102,12 @@
       </div>
     </div>
 
-    <div id="intro-carousel" class="owl-carousel" >
-      <div class="item" style="background-image: url('{{ asset('landing-page/img/intro-carousel/1.jpg')}};"></div>
-      <div class="item" style="background-image: url('{{ asset('landing-page/img/intro-carousel/2.jpg')}};"></div>
-      <div class="item" style="background-image: url('{{ asset('landing-page/img/intro-carousel/3.jpg')}};"></div>
-      <div class="item" style="background-image: url('{{ asset('landing-page/img/intro-carousel/4.jpg')}};"></div>
-      <div class="item" style="background-image: url('{{ asset('landing-page/img/intro-carousel/5.jpg')}};"></div>
+    <div id="intro-carousel" class="owl-carousel">
+      <div class="item" style="background-image: url('{{ asset('landing-page/img/intro-carousel/1.jpg') }}');"></div>
+      <div class="item" style="background-image: url('{{ asset('landing-page/img/intro-carousel/2.jpg') }}');"></div>
+      <div class="item" style="background-image: url('{{ asset('landing-page/img/intro-carousel/3.jpg') }}');"></div>
+      <div class="item" style="background-image: url('{{ asset('landing-page/img/intro-carousel/4.jpg') }}');"></div>
+      <div class="item" style="background-image: url('{{ asset('landing-page/img/intro-carousel/5.jpg') }}');"></div>
     </div>
 
   </section><!-- #intro -->
@@ -122,7 +121,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 about-img">
-            <img src="{{ asset('landing-page/img/about-img.jpg')}}" alt="">
+            <img src="{{ asset('landing-page/img/about-img.jpg') }}" alt="">
           </div>
 
           <div class="col-lg-6 content">
@@ -156,7 +155,7 @@
           <div class="col-lg-6">
             <div class="box wow fadeInLeft">
               <div class="icon"><i class="fa fa-bar-chart"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <h4 class="title"><a href="#">Lorem Ipsum</a></h4>
               <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
             </div>
           </div>
@@ -164,7 +163,7 @@
           <div class="col-lg-6">
             <div class="box wow fadeInRight">
               <div class="icon"><i class="fa fa-picture-o"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
+              <h4 class="title"><a href="#">Dolor Sitema</a></h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
             </div>
           </div>
@@ -172,7 +171,7 @@
           <div class="col-lg-6">
             <div class="box wow fadeInLeft" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-shopping-bag"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+              <h4 class="title"><a href="#">Sed ut perspiciatis</a></h4>
               <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.</p>
             </div>
           </div>
@@ -180,7 +179,7 @@
           <div class="col-lg-6">
             <div class="box wow fadeInRight" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-map"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <h4 class="title"><a href="#">Magni Dolores</a></h4>
               <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
             </div>
           </div>
@@ -201,14 +200,14 @@
         </div>
 
         <div class="owl-carousel clients-carousel">
-          <img src="{{ asset('landing-page/img/clients/client-1.png" alt=')}}"">
-          <img src="{{ asset('landing-page/img/clients/client-2.png" alt=')}}"">
-          <img src="{{ asset('landing-page/img/clients/client-3.png" alt=')}}"">
-          <img src="{{ asset('landing-page/img/clients/client-4.png" alt=')}}"">
-          <img src="{{ asset('landing-page/img/clients/client-5.png" alt=')}}"">
-          <img src="{{ asset('landing-page/img/clients/client-6.png" alt=')}}"">
-          <img src="{{ asset('landing-page/img/clients/client-7.png" alt=')}}"">
-          <img src="{{ asset('landing-page/img/clients/client-8.png" alt=')}}"">
+          <img src="{{ asset('landing-page/img/clients/client-1.png') }}" alt="">
+          <img src="{{ asset('landing-page/img/clients/client-2.png') }}" alt="">
+          <img src="{{ asset('landing-page/img/clients/client-3.png') }}" alt="">
+          <img src="{{ asset('landing-page/img/clients/client-4.png') }}" alt="">
+          <img src="{{ asset('landing-page/img/clients/client-5.png') }}" alt="">
+          <img src="{{ asset('landing-page/img/clients/client-6.png') }}" alt="">
+          <img src="{{ asset('landing-page/img/clients/client-7.png') }}" alt="">
+          <img src="{{ asset('landing-page/img/clients/client-8.png') }}" alt="">
         </div>
 
       </div>
@@ -230,8 +229,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="{{ asset('landing-page/img/portfolio/1.jpg')}}" class="portfolio-popup">
-                <img src="{{ asset('landing-page/img/portfolio/1.jpg')}}" alt="">
+              <a href="{{ asset('landing-page/img/portfolio/1.jpg') }}" class="portfolio-popup">
+                <img src="{{ asset('landing-page/img/portfolio/1.jpg') }}" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 1</h2></div>
                 </div>
@@ -241,8 +240,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="{{ asset('landing-page/img/portfolio/2.jpg')}}" class="portfolio-popup">
-                <img src="{{ asset('landing-page/img/portfolio/2.jpg')}}" alt="">
+              <a href="{{ asset('landing-page/img/portfolio/2.jpg') }}" class="portfolio-popup">
+                <img src="{{ asset('landing-page/img/portfolio/2.jpg') }}" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 2</h2></div>
                 </div>
@@ -252,8 +251,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="{{ asset('landing-page/img/portfolio/3.jpg')}}" class="portfolio-popup">
-                <img src="{{ asset('landing-page/img/portfolio/3.jpg')}}" alt="">
+              <a href="{{ asset('landing-page/img/portfolio/3.jpg') }}" class="portfolio-popup">
+                <img src="{{ asset('landing-page/img/portfolio/3.jpg') }}" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 3</h2></div>
                 </div>
@@ -263,8 +262,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="{{ asset('landing-page/img/portfolio/4.jpg')}}" class="portfolio-popup">
-                <img src="{{ asset('landing-page/img/portfolio/4.jpg')}}" alt="">
+              <a href="{{ asset('landing-page/img/portfolio/4.jpg') }}" class="portfolio-popup">
+                <img src="{{ asset('landing-page/img/portfolio/4.jpg') }}" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 4</h2></div>
                 </div>
@@ -274,8 +273,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="{{ asset('landing-page/img/portfolio/5.jpg')}}" class="portfolio-popup">
-                <img src="{{ asset('landing-page/img/portfolio/5.jpg')}}" alt="">
+              <a href="{{ asset('landing-page/img/portfolio/5.jpg') }}" class="portfolio-popup">
+                <img src="{{ asset('landing-page/img/portfolio/5.jpg') }}" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 5</h2></div>
                 </div>
@@ -285,8 +284,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="{{ asset('landing-page/img/portfolio/6.jpg')}}" class="portfolio-popup">
-                <img src="{{ asset('landing-page/img/portfolio/6.jpg')}}" alt="">
+              <a href="{{ asset('landing-page/img/portfolio/6.jpg') }}" class="portfolio-popup">
+                <img src="{{ asset('landing-page/img/portfolio/6.jpg') }}" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 6</h2></div>
                 </div>
@@ -296,8 +295,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="{{ asset('landing-page/img/portfolio/7.jpg')}}" class="portfolio-popup">
-                <img src="{{ asset('landing-page/img/portfolio/7.jpg')}}" alt="">
+              <a href="{{ asset('landing-page/img/portfolio/7.jpg') }}" class="portfolio-popup">
+                <img src="{{ asset('landing-page/img/portfolio/7.jpg') }}" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 7</h2></div>
                 </div>
@@ -307,8 +306,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="{{ asset('landing-page/img/portfolio/8.jpg')}}" class="portfolio-popup">
-                <img src="{{ asset('landing-page/img/portfolio/8.jpg')}}" alt="">
+              <a href="{{ asset('landing-page/img/portfolio/8.jpg') }}" class="portfolio-popup">
+                <img src="{{ asset('landing-page/img/portfolio/8.jpg') }}" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 8</h2></div>
                 </div>
@@ -334,33 +333,33 @@
 
             <div class="testimonial-item">
               <p>
-                <img src="{{ asset('landing-page/img/quote-sign-left.png')}}" class="quote-sign-left" alt="">
+                <img src="{{ asset('landing-page/img/quote-sign-left.png') }}" class="quote-sign-left" alt="">
                 Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                <img src="{{ asset('landing-page/img/quote-sign-right.png')}}" class="quote-sign-right" alt="">
+                <img src="{{ asset('landing-page/img/quote-sign-right.png') }}" class="quote-sign-right" alt="">
               </p>
-              <img src="{{ asset('landing-page/img/testimonial-1.jpg')}}" class="testimonial-img" alt="">
+              <img src="{{ asset('landing-page/img/testimonial-1.jpg') }}" class="testimonial-img" alt="">
               <h3>Saul Goodman</h3>
               <h4>Ceo &amp; Founder</h4>
             </div>
 
             <div class="testimonial-item">
               <p>
-                <img src="{{ asset('landing-page/img/quote-sign-left.png')}}" class="quote-sign-left" alt="">
+                <img src="{{ asset('landing-page/img/quote-sign-left.png') }}" class="quote-sign-left" alt="">
                 Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                <img src="{{ asset('landing-page/img/quote-sign-right.png')}}" class="quote-sign-right" alt="">
+                <img src="{{ asset('landing-page/img/quote-sign-right.png') }}" class="quote-sign-right" alt="">
               </p>
-              <img src="{{ asset('landing-page/img/testimonial-2.jpg')}}" class="testimonial-img" alt="">
+              <img src="{{ asset('landing-page/img/testimonial-2.jpg') }}" class="testimonial-img" alt="">
               <h3>Sara Wilsson</h3>
               <h4>Designer</h4>
             </div>
 
             <div class="testimonial-item">
               <p>
-                <img src="{{ asset('landing-page/img/quote-sign-left.png')}}" class="quote-sign-left" alt="">
+                <img src="{{ asset('landing-page/img/quote-sign-left.png') }}" class="quote-sign-left" alt="">
                 Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                <img src="{{ asset('landing-page/img/quote-sign-right.png')}}" class="quote-sign-right" alt="">
+                <img src="{{ asset('landing-page/img/quote-sign-right.png') }}" class="quote-sign-right" alt="">
               </p>
-              <img src="{{ asset('landing-page/img/testimonial-3.jpg')}}" class="testimonial-img" alt="">
+              <img src="{{ asset('landing-page/img/testimonial-3.jpg') }}" class="testimonial-img" alt="">
               <h3>Jena Karlis</h3>
               <h4>Store Owner</h4>
             </div>
