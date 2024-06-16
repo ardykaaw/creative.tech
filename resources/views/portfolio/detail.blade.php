@@ -99,7 +99,7 @@
         </div>
       </div>
       <div class="text-center mt-4">
-        <a href="{{ url('/') }}" class="btn btn-primary">Kembali ke Halaman Utama</a>
+        <a href="{{ url('/') }}" class="btn btn-primary">Kembali ke Halaman utama</a>
       </div>
     </div>
   </section><!-- #portfolio-detail -->
