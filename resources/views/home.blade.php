@@ -8,8 +8,8 @@
   <meta name="description" content="Creative Tech is a digital agency that provides web and mobile application development, IT consulting, social media management, graphic design, and video editing services.">
 
   <!-- Favicons -->
-  <link rel="icon" href="{{ asset('landing-page/img/favicon.png') }}">
-  <link rel="apple-touch-icon" href="{{ asset('landing-page/img/apple-touch-icon.png') }}">
+  <link rel="icon" href="{{ asset('landing-page/img/logo-web.png') }}">
+  <link rel="apple-touch-icon" href="{{ asset('landing-page/img/logo-web.png') }}">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
