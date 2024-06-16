@@ -212,8 +212,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="{{ asset('landing-page/img/portfolio/1.jpg') }}" class="portfolio-popup">
-                <img src="{{ asset('landing-page/img/portfolio/1.jpg') }}" alt="">
+              <a href="{{ asset('landing-page/img/portfolio/project1.png') }}" class="portfolio-popup">
+                <img src="{{ asset('landing-page/img/portfolio/project1.png') }}" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Project 1</h2></div>
                 </div>
@@ -223,8 +223,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="{{ asset('landing-page/img/portfolio/2.jpg') }}" class="portfolio-popup">
-                <img src="{{ asset('landing-page/img/portfolio/2.jpg') }}" alt="">
+              <a href="{{ asset('landing-page/img/portfolio/project2.png') }}" class="portfolio-popup">
+                <img src="{{ asset('landing-page/img/portfolio/project2.png') }}" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Project 2</h2></div>
                 </div>
