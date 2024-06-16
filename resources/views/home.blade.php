@@ -105,58 +105,73 @@
     <!--==========================
       Services Section
     ============================-->
-    <section id="services">
-      <div class="container">
-        <div class="section-header">
-          <h2>Our Services</h2>
+<section id="services">
+  <div class="container">
+    <div class="section-header">
+      <h2>Our Services</h2>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="box wow fadeInLeft">
+          <div class="icon"><i class="fa fa-laptop"></i></div>
+          <h4 class="title"><a href="#">Web and Mobile Application Development</a></h4>
+          <p class="description">Developing responsive and high-performance web and mobile applications to meet your business needs.</p>
         </div>
-
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="box wow fadeInLeft">
-              <div class="icon"><i class="fa fa-laptop"></i></div>
-              <h4 class="title"><a href="#">Web and Mobile Application Development</a></h4>
-              <p class="description">Developing responsive and high-performance web and mobile applications to meet your business needs.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="box wow fadeInRight">
-              <div class="icon"><i class="fa fa-cogs"></i></div>
-              <h4 class="title"><a href="#">IT Consulting</a></h4>
-              <p class="description">Providing IT consulting to help you strategize technology that aligns with your business goals.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="box wow fadeInLeft" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-users"></i></div>
-              <h4 class="title"><a href="#">Social Media Management</a></h4>
-              <p class="description">Managing and enhancing your social media presence to increase engagement and brand awareness.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="box wow fadeInRight" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-pencil"></i></div>
-              <h4 class="title"><a href="#">Graphic Design</a></h4>
-              <p class="description">Creating innovative and captivating graphic designs that communicate with your target audience.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="box wow fadeInLeft" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-video-camera"></i></div>
-              <h4 class="title"><a href="#">Video Editing</a></h4>
-              <p class="description">Providing professional video editing services for various promotional and commercial purposes.</p>
-            </div>
-          </div>
-
-        </div>
-
       </div>
-    </section><!-- #services -->
 
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="box wow fadeInRight">
+          <div class="icon"><i class="fa fa-cogs"></i></div>
+          <h4 class="title"><a href="#">IT Consulting</a></h4>
+          <p class="description">Providing IT consulting to help you strategize technology that aligns with your business goals.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+          <div class="icon"><i class="fa fa-users"></i></div>
+          <h4 class="title"><a href="#">Social Media Management</a></h4>
+          <p class="description">Managing and enhancing your social media presence to increase engagement and brand awareness.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="box wow fadeInRight" data-wow-delay="0.2s">
+          <div class="icon"><i class="fa fa-pencil"></i></div>
+          <h4 class="title"><a href="#">Graphic Design</a></h4>
+          <p class="description">Creating innovative and captivating graphic designs that communicate with your target audience.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+          <div class="icon"><i class="fa fa-video-camera"></i></div>
+          <h4 class="title"><a href="#">Video Editing</a></h4>
+          <p class="description">Providing professional video editing services for various promotional and commercial purposes.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="box wow fadeInLeft" data-wow-delay="0.4s">
+          <div class="icon"><i class="fa fa-cube"></i></div>
+          <h4 class="title"><a href="#">3D Modelling</a></h4>
+          <p class="description">Providing high-quality and realistic 3D modeling services for various industry needs.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="box wow fadeInRight" data-wow-delay="0.4s">
+          <div class="icon"><i class="fa fa-film"></i></div>
+          <h4 class="title"><a href="#">Animator</a></h4>
+          <p class="description">Offering professional animation services for various projects, from advertisements to animated films.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- #services -->
     <!--==========================
       Clients Section
     ============================-->
@@ -446,7 +461,7 @@
           <div class="card-body">
             <div class="pic"><img src="{{ asset('landing-page/img/diksan.jpg')}}" alt="" class="img-fluid"></div>
             <div class="details">
-              <h4>Dikhsan Dwirangga</h4>
+              <h4>Dikhsan Tibong</h4>
               <span>Programmer</span>
               <div class="social">
                 <a href=""><i class="fa fa-twitter"></i></a>
@@ -501,7 +516,7 @@
       </div>
 
       <div class="container mb-4">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15958.123456789012!2d122.518462!3d-3.977978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d98e1234567890%3A0x1234567890abcdef!2sKendari%2C+Sulawesi+Tenggara%2C+Indonesia!5e0!3m2!1sen!2sid!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
 
       <div class="container">
