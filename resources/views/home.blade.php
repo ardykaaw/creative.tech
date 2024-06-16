@@ -53,7 +53,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#body" class="scrollto">Creative <span>Tech</span></a></h1>
+        <h1><a href="#body" class="scrollto">Creative<span>Tech</span></a></h1>
       </div>
 
       <nav id="nav-menu-container">
@@ -389,10 +389,10 @@
         <div class="row">
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="{{ asset('landing-page/img/team-1.jpg')}}" alt=""></div>
+              <div class="pic"><img src="{{ asset('landing-page/img/diki.jpg')}}" alt=""></div>
               <div class="details">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+                <h4>Diki Ardika</h4>
+                <span>Programmer</span>
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
@@ -405,10 +405,10 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="{{ asset('landing-page/img/team-2.jpg')}}" alt=""></div>
+              <div class="pic"><img src="{{ asset('landing-page/img/pais.jpg')}}" alt=""></div>
               <div class="details">
-                <h4>Sarah Jhinson</h4>
-                <span>Product Manager</span>
+                <h4>Muhammad Faiz</h4>
+                <span>Marketing</span>
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
@@ -421,10 +421,10 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="{{ asset('landing-page/img/team-3.jpg')}}" alt=""></div>
+              <div class="pic"><img src="{{ asset('landing-page/img/febri2.png')}}" alt=""></div>
               <div class="details">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
+                <h4>Febri NB</h4>
+                <span>UI UX Designer</span>
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
@@ -435,12 +435,12 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-2 col-md-6">
             <div class="member">
-              <div class="pic"><img src="{{ asset('landing-page/img/team-4.jpg')}}" alt=""></div>
+              <div class="pic"><img src="{{ asset('landing-page/img/diksan.jpg')}}" alt=""></div>
               <div class="details">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
+                <h4>Dikhsan Dwirangga</h4>
+                <span>Programmer</span>
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
