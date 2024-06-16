@@ -62,23 +62,44 @@
       </div>
       <div class="row">
         <div class="col-lg-8">
-          <img src="{{ asset($detail['image']) }}" class="img-fluid" alt="{{ $detail['title'] }}">
+          @if (isset($detail['videos']) && is_array($detail['videos']))
+            <!-- Video Carousel for Video Editing -->
+            <div id="videoCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+              <div class="carousel-inner">
+                @foreach ($detail['videos'] as $index => $video)
+                  <div class="carousel-item {{ $index == 0 ? 'active' : '' }}">
+                    <iframe width="100%" height="500" src="{{ $video }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  </div>
+                @endforeach
+              </div>
+              <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#videoCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          @elseif (isset($detail['image']))
+            <!-- Image Display for Web Development -->
+            <img src="{{ asset($detail['image']) }}" alt="{{ $detail['title'] }}" style="width: 100%; height: auto;">
+          @endif
         </div>
         <div class="col-lg-4">
           <div class="portfolio-info">
-            <h3>Project information</h3>
+            <h3>Project Information</h3>
             <ul>
-              <li><strong>Category</strong>: {{ $detail['title'] }}</li>
-              <li><strong>Client</strong>: Example Client</li>
-              <li><strong>Project date</strong>: 01 March, 2023</li>
-              <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+              <li><strong>Category:</strong> {{ $detail['title'] }}</li>
+              <li><strong>Client:</strong> Example Client</li>
+              <li><strong>Project Date:</strong> 01 March, 2023</li>
+              <li><strong>Project URL:</strong> <a href="#">www.example.com</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
   </section><!-- #portfolio-detail -->
-
   <!--==========================
     Footer
   ============================-->

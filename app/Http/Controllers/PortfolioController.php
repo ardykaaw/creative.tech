@@ -19,12 +19,16 @@ class PortfolioController extends Controller
             'video-editing' => [
                 'title' => 'Video Editing',
                 'description' => 'Professional video editing services to create compelling and high-quality videos.',
-                'image' => 'landing-page/img/about.png'
+                'videos' => [
+                    'https://www.youtube.com/embed/GahKxn9I-lg',
+                    'https://www.youtube.com/embed/VDJlHAq0KR0',
+                    'https://www.youtube.com/embed/YccVDnFCzRY'
+                ]
             ],
             'web-development' => [
                 'title' => 'Web Development',
                 'description' => 'Custom web solutions developed with the latest technologies to boost your online presence.',
-                'image' => 'landing-page/img/about,png'
+                'image' => 'landing-page/img/about.png'
             ]
         ];
 
