@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Reveal Bootstrap Template</title>
+  <title>Creative Tech - Digital Agency</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content="">
-  <meta name="description" content="">
+  <meta name="keywords" content="web development, mobile development, IT consulting, social media management, graphic design, video editing">
+  <meta name="description" content="Creative Tech is a digital agency that provides web and mobile application development, IT consulting, social media management, graphic design, and video editing services.">
 
   <!-- Favicons -->
   <link rel="icon" href="{{ asset('landing-page/img/favicon.png') }}">
@@ -27,34 +27,9 @@
   <!-- Main Stylesheet File -->
   <link rel="stylesheet" href="{{ asset('landing-page/css/style.css') }}">
 
-  <!-- =======================================================
-    Theme Name: Reveal
-    Theme URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
 </head>
 
 <body id="body">
-
-  <!--==========================
-    Top Bar
-  ============================-->
-  <section id="topbar" class="d-none d-lg-block">
-    <div class="container clearfix">
-      <div class="contact-info float-left">
-        <i class="fa fa-envelope-o"></i> <a href="mailto:contact@example.com">contact@example.com</a>
-        <i class="fa fa-phone"></i> +1 5589 55488 55
-      </div>
-      <div class="social-links float-right">
-        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-      </div>
-    </div>
-  </section>
 
   <!--==========================
     Header
@@ -63,9 +38,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#body" class="scrollto">Reve<span>al</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
+        <h1><a href="#body" class="scrollto">Creative <span>Tech</span></a></h1>
       </div>
 
       <nav id="nav-menu-container">
@@ -74,15 +47,7 @@
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="#">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>
+          <li><a href="#team">Our Team</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -93,23 +58,13 @@
     Intro Section
   ============================-->
   <section id="intro">
-
     <div class="intro-content">
-      <h2>Making <span>your ideas</span><br>happen!</h2>
+      <h2>Building Your <span>Digital</span> Future!</h2>
       <div>
         <a href="#about" class="btn-get-started scrollto">Get Started</a>
         <a href="#portfolio" class="btn-projects scrollto">Our Projects</a>
       </div>
     </div>
-
-    <div id="intro-carousel" class="owl-carousel">
-      <div class="item" style="background-image: url('{{ asset('landing-page/img/intro-carousel/1.jpg') }}');"></div>
-      <div class="item" style="background-image: url('{{ asset('landing-page/img/intro-carousel/2.jpg') }}');"></div>
-      <div class="item" style="background-image: url('{{ asset('landing-page/img/intro-carousel/3.jpg') }}');"></div>
-      <div class="item" style="background-image: url('{{ asset('landing-page/img/intro-carousel/4.jpg') }}');"></div>
-      <div class="item" style="background-image: url('{{ asset('landing-page/img/intro-carousel/5.jpg') }}');"></div>
-    </div>
-
   </section><!-- #intro -->
 
   <main id="main">
@@ -125,18 +80,10 @@
           </div>
 
           <div class="col-lg-6 content">
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2>
-            <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-
-            <ul>
-              <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="ion-android-checkmark-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-            </ul>
-
+            <h2>About Creative Tech</h2>
+            <h3>We are a digital agency dedicated to helping clients achieve success in the digital era.</h3>
           </div>
         </div>
-
       </div>
     </section><!-- #about -->
 
@@ -146,41 +93,47 @@
     <section id="services">
       <div class="container">
         <div class="section-header">
-          <h2>Services</h2>
-          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+          <h2>Our Services</h2>
         </div>
 
         <div class="row">
-
-          <div class="col-lg-6">
+          <div class="col-lg-4">
             <div class="box wow fadeInLeft">
-              <div class="icon"><i class="fa fa-bar-chart"></i></div>
-              <h4 class="title"><a href="#">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
+              <div class="icon"><i class="fa fa-laptop"></i></div>
+              <h4 class="title"><a href="#">Web and Mobile Application Development</a></h4>
+              <p class="description">Developing responsive and high-performance web and mobile applications to meet your business needs.</p>
             </div>
           </div>
 
-          <div class="col-lg-6">
+          <div class="col-lg-4">
             <div class="box wow fadeInRight">
-              <div class="icon"><i class="fa fa-picture-o"></i></div>
-              <h4 class="title"><a href="#">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+              <div class="icon"><i class="fa fa-cogs"></i></div>
+              <h4 class="title"><a href="#">IT Consulting</a></h4>
+              <p class="description">Providing IT consulting to help you strategize technology that aligns with your business goals.</p>
             </div>
           </div>
 
-          <div class="col-lg-6">
+          <div class="col-lg-4">
             <div class="box wow fadeInLeft" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
-              <h4 class="title"><a href="#">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.</p>
+              <div class="icon"><i class="fa fa-users"></i></div>
+              <h4 class="title"><a href="#">Social Media Management</a></h4>
+              <p class="description">Managing and enhancing your social media presence to increase engagement and brand awareness.</p>
             </div>
           </div>
 
-          <div class="col-lg-6">
+          <div class="col-lg-4">
             <div class="box wow fadeInRight" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-map"></i></div>
-              <h4 class="title"><a href="#">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
+              <div class="icon"><i class="fa fa-pencil"></i></div>
+              <h4 class="title"><a href="#">Graphic Design</a></h4>
+              <p class="description">Creating innovative and captivating graphic designs that communicate with your target audience.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-video-camera"></i></div>
+              <h4 class="title"><a href="#">Video Editing</a></h4>
+              <p class="description">Providing professional video editing services for various promotional and commercial purposes.</p>
             </div>
           </div>
 
@@ -195,8 +148,8 @@
     <section id="clients" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>Clients</h2>
-          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+          <h2>Our Clients</h2>
+          <p>We are proud to have worked with various clients from different industries, delivering innovative and effective digital solutions.</p>
         </div>
 
         <div class="owl-carousel clients-carousel">
@@ -220,7 +173,7 @@
       <div class="container">
         <div class="section-header">
           <h2>Our Portfolio</h2>
-          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+          <p>Discover various projects we have worked on and how we helped our clients achieve their digital goals.</p>
         </div>
       </div>
 
@@ -232,7 +185,7 @@
               <a href="{{ asset('landing-page/img/portfolio/1.jpg') }}" class="portfolio-popup">
                 <img src="{{ asset('landing-page/img/portfolio/1.jpg') }}" alt="">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 1</h2></div>
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Project 1</h2></div>
                 </div>
               </a>
             </div>
@@ -243,7 +196,7 @@
               <a href="{{ asset('landing-page/img/portfolio/2.jpg') }}" class="portfolio-popup">
                 <img src="{{ asset('landing-page/img/portfolio/2.jpg') }}" alt="">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 2</h2></div>
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Project 2</h2></div>
                 </div>
               </a>
             </div>
@@ -254,7 +207,7 @@
               <a href="{{ asset('landing-page/img/portfolio/3.jpg') }}" class="portfolio-popup">
                 <img src="{{ asset('landing-page/img/portfolio/3.jpg') }}" alt="">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 3</h2></div>
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Project 3</h2></div>
                 </div>
               </a>
             </div>
@@ -265,7 +218,7 @@
               <a href="{{ asset('landing-page/img/portfolio/4.jpg') }}" class="portfolio-popup">
                 <img src="{{ asset('landing-page/img/portfolio/4.jpg') }}" alt="">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 4</h2></div>
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Project 4</h2></div>
                 </div>
               </a>
             </div>
@@ -276,7 +229,7 @@
               <a href="{{ asset('landing-page/img/portfolio/5.jpg') }}" class="portfolio-popup">
                 <img src="{{ asset('landing-page/img/portfolio/5.jpg') }}" alt="">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 5</h2></div>
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Project 5</h2></div>
                 </div>
               </a>
             </div>
@@ -287,7 +240,7 @@
               <a href="{{ asset('landing-page/img/portfolio/6.jpg') }}" class="portfolio-popup">
                 <img src="{{ asset('landing-page/img/portfolio/6.jpg') }}" alt="">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 6</h2></div>
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Project 6</h2></div>
                 </div>
               </a>
             </div>
@@ -298,7 +251,7 @@
               <a href="{{ asset('landing-page/img/portfolio/7.jpg') }}" class="portfolio-popup">
                 <img src="{{ asset('landing-page/img/portfolio/7.jpg') }}" alt="">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 7</h2></div>
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Project 7</h2></div>
                 </div>
               </a>
             </div>
@@ -309,7 +262,7 @@
               <a href="{{ asset('landing-page/img/portfolio/8.jpg') }}" class="portfolio-popup">
                 <img src="{{ asset('landing-page/img/portfolio/8.jpg') }}" alt="">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 8</h2></div>
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Project 8</h2></div>
                 </div>
               </a>
             </div>
@@ -327,14 +280,14 @@
       <div class="container">
         <div class="section-header">
           <h2>Testimonials</h2>
-          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+          <p>Hear what our clients have to say about their experience working with Creative Tech and how we helped them achieve their digital goals.</p>
         </div>
         <div class="owl-carousel testimonials-carousel">
 
             <div class="testimonial-item">
               <p>
                 <img src="{{ asset('landing-page/img/quote-sign-left.png') }}" class="quote-sign-left" alt="">
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                Creative Tech has provided highly effective solutions for our digital needs. Their team is responsive and highly skilled.
                 <img src="{{ asset('landing-page/img/quote-sign-right.png') }}" class="quote-sign-right" alt="">
               </p>
               <img src="{{ asset('landing-page/img/testimonial-1.jpg') }}" class="testimonial-img" alt="">
@@ -345,7 +298,7 @@
             <div class="testimonial-item">
               <p>
                 <img src="{{ asset('landing-page/img/quote-sign-left.png') }}" class="quote-sign-left" alt="">
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                Working with Creative Tech has brought significant digital transformation to our company. They truly understand our needs.
                 <img src="{{ asset('landing-page/img/quote-sign-right.png') }}" class="quote-sign-right" alt="">
               </p>
               <img src="{{ asset('landing-page/img/testimonial-2.jpg') }}" class="testimonial-img" alt="">
@@ -356,7 +309,7 @@
             <div class="testimonial-item">
               <p>
                 <img src="{{ asset('landing-page/img/quote-sign-left.png') }}" class="quote-sign-left" alt="">
-                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                Creative Tech provides outstanding service. They are very professional and always deliver results that exceed our expectations.
                 <img src="{{ asset('landing-page/img/quote-sign-right.png') }}" class="quote-sign-right" alt="">
               </p>
               <img src="{{ asset('landing-page/img/testimonial-3.jpg') }}" class="testimonial-img" alt="">
@@ -367,7 +320,7 @@
             <div class="testimonial-item">
               <p>
                 <img src="{{ asset('landing-page/img/quote-sign-left.png')}}" class="quote-sign-left" alt="">
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                The Creative Tech team is very dedicated and experienced. They helped us optimize our business processes through innovative digital solutions.
                 <img src="{{ asset('landing-page/img/quote-sign-right.png')}}" class="quote-sign-right" alt="">
               </p>
               <img src="{{ asset('landing-page/img/testimonial-4.jpg')}}" class="testimonial-img" alt="">
@@ -378,7 +331,7 @@
             <div class="testimonial-item">
               <p>
                 <img src="{{ asset('landing-page/img/quote-sign-left.png')}}" class="quote-sign-left" alt="">
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                Creative Tech has been a very valuable partner for us. They not only provide technical solutions but also effective digital marketing strategies.
                 <img src="{{ asset('landing-page/img/quote-sign-right.png')}}" class="quote-sign-right" alt="">
               </p>
               <img src="{{ asset('landing-page/img/testimonial-5.jpg')}}" class="testimonial-img" alt="">
@@ -398,11 +351,11 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Call To Action</h3>
-            <p class="cta-text"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3 class="cta-title">Join the Digital Revolution</h3>
+            <p class="cta-text"> Don't miss the opportunity to transform your business with cutting-edge digital solutions from Creative Tech. Contact us today!</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn align-middle" href="#">Join Now</a>
           </div>
         </div>
 
@@ -416,6 +369,7 @@
       <div class="container">
         <div class="section-header">
           <h2>Our Team</h2>
+          <p>The Creative Tech team consists of dedicated and experienced professionals in their respective fields, ready to help you achieve your digital goals.</p>
         </div>
         <div class="row">
           <div class="col-lg-3 col-md-6">
@@ -492,8 +446,8 @@
     <section id="contact" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>Contact Us</h2>
-          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+          <h2>Kontak Kami</h2>
+          <p>Jika Anda memiliki pertanyaan atau ingin memulai proyek dengan kami, jangan ragu untuk menghubungi kami. Tim Creative Tech siap membantu Anda.</p>
         </div>
 
         <div class="row contact-info">
@@ -501,7 +455,7 @@
           <div class="col-md-4">
             <div class="contact-address">
               <i class="ion-ios-location-outline"></i>
-              <h3>Address</h3>
+              <h3>Alamat</h3>
               <address>A108 Adam Street, NY 535022, USA</address>
             </div>
           </div>
@@ -509,7 +463,7 @@
           <div class="col-md-4">
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
-              <h3>Phone Number</h3>
+              <h3>Nomor Telepon</h3>
               <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
             </div>
           </div>
@@ -536,23 +490,23 @@
           <form action="" method="post" role="form" class="contactForm">
             <div class="form-row">
               <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <input type="text" name="name" class="form-control" id="name" placeholder="Nama Anda" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 <div class="validation"></div>
               </div>
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email Anda" data-rule="email" data-msg="Please enter a valid email" />
                 <div class="validation"></div>
               </div>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subjek" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
               <div class="validation"></div>
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Pesan Anda"></textarea>
               <div class="validation"></div>
             </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
+            <div class="text-center"><button type="submit">Kirim Pesan</button></div>
           </form>
         </div>
 
@@ -567,7 +521,7 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Reveal</strong>. All Rights Reserved
+        &copy; Hak Cipta <strong>Creative Tech</strong>. Semua Hak Dilindungi
       </div>
       <div class="credits">
         <!--
