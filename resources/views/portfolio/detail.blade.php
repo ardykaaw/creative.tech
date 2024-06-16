@@ -49,7 +49,7 @@
   <!--==========================
     Header
   ============================-->
-  @include('navbar')
+  
 
   <!--==========================
     Portfolio Detail Section
@@ -98,6 +98,9 @@
           </div>
         </div>
       </div>
+      <div class="text-center mt-4">
+        <a href="{{ url('/') }}" class="btn btn-primary">Kembali ke Halaman Utama</a>
+      </div>
     </div>
   </section><!-- #portfolio-detail -->
   <!--==========================
@@ -112,7 +115,6 @@
 
   <!-- JavaScript Libraries -->
   <script src="{{ asset('landing-page/lib/jquery/jquery.min.js') }}"></script>
-  <script src="{{ asset('landing-page/lib/jquery/jquery-migrate.min.js') }}"></script>
   <script src="{{ asset('landing-page/lib/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
   <script src="{{ asset('landing-page/lib/easing/easing.min.js') }}"></script>
   <script src="{{ asset('landing-page/lib/superfish/hoverIntent.js') }}"></script>
@@ -127,6 +129,5 @@
 
   <!-- Template Main Javascript File -->
   <script src="{{ asset('landing-page/js/main.js') }}"></script>
-
 </body>
 </html>
