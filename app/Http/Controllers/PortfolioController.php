@@ -9,7 +9,6 @@ class PortfolioController extends Controller
 {
     public function show($type)
     {
-        // Contoh data, sebaiknya ambil dari database
         $details = [
             'uiux' => [
                 'title' => 'UI/UX Design',
