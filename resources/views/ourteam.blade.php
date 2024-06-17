@@ -2,7 +2,7 @@
     <div class="container">
       <div class="section-header">
         <h2>Our Team</h2>
-        <p>The Creative Tech team consists of dedicated and experienced professionals in their respective fields, ready to help you achieve your digital goals.</p>
+        <p>Tim Creative Tech terdiri dari para profesional yang berdedikasi dan berpengalaman di bidangnya masing-masing, siap membantu Anda mencapai tujuan digital Anda.</p>
       </div>
       <div class="row">
         <div class="col-lg-3 col-md-6">
