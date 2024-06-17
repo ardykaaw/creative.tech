@@ -76,6 +76,25 @@
             </div>
           </div>
         </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <div class="pic"><img src="{{ asset('landing-page/img/ade.png')}}" alt="" class="img-fluid"></div>
+              <div class="details">
+                <h4>Ade Syifa </h4>
+                <span>Programmer</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
       </div>
     </div>
   </section><!-- #team -->
