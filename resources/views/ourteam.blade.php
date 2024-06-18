@@ -26,7 +26,7 @@
         <div class="col-lg-3 col-md-6">
           <div class="card">
             <div class="card-body">
-              <div class="pic"><img src="{{ asset('landing-page/img/pais.jpg')}}" alt="" class="img-fluid"></div>
+              <div class="pic"><img src="{{ asset('landing-page/img/image.png')}}" alt="" class="img-fluid"></div>
               <div class="details">
                 <h4>Muhammad Faiz</h4>
                 <span>Marketing</span>
@@ -44,7 +44,7 @@
         <div class="col-lg-3 col-md-6">
           <div class="card">
             <div class="card-body">
-              <div class="pic"><img src="{{ asset('landing-page/img/febri2.png')}}" alt="" class="img-fluid"></div>
+              <div class="pic"><img src="{{ asset('landing-page/img/image copy.png')}}" alt="" class="img-fluid"></div>
               <div class="details">
                 <h4>Febri NB</h4>
                 <span>UI UX Designer</span>
