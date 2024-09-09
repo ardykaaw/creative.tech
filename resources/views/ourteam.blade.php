@@ -1,4 +1,4 @@
-<section id="team" class="wow fadeInUp">
+{{-- <section id="team" class="wow fadeInUp">
     <div class="container">
       <div class="section-header">
         <h2>Our Team</h2>
@@ -97,4 +97,4 @@
     </div>
       </div>
     </div>
-  </section><!-- #team -->
+  </section><!-- #team --> --}}

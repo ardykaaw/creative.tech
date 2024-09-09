@@ -6,42 +6,41 @@
       </div>
   
       <div class="row">
-        <!-- UI/UX Design Card -->
-        <div class="col-lg-4 col-md-6">
+        <!-- Animasi Safety Induction Card -->
+        <div class="col-lg-4">
           <div class="card">
-            <img class="card-img-top" src="{{ asset('landing-page/img/portfolio/uiux.jpg') }}" alt="UI/UX Design">
+            <iframe class="card-img-top" src="https://www.youtube.com/embed/qNZ-McWO8jc" frameborder="0" allowfullscreen></iframe>
             <div class="card-body">
-              <h5 class="card-title">UI/UX Design</h5>
-              <p class="card-text">Desain inovatif dan ramah pengguna yang meningkatkan pengalaman dan keterlibatan pengguna.</p>
-              <a href="{{ url('/portfolio/uiux') }}" class="btn btn-primary">Lihat Detail</a>
+              <h5 class="card-title">Animasi Safety Induction</h5>
+              <p class="card-text">Video animasi yang membantu meningkatkan kesadaran dan keamanan di tempat kerja.</p>
+              <a href="{{ url('/portfolio/animasi-safety-induction') }}" class="btn btn-primary">Lihat Detail</a>
             </div>
           </div>
         </div>
   
-        <!-- Video Editing Card -->
-        <div class="col-lg-4 col-md-6">
+        <!-- Fortifikasi Pangan Card -->
+        <div class="col-lg-4">
           <div class="card">
-            <img class="card-img-top" src="{{ asset('landing-page/img/portfolio/video-editing.jpg') }}" alt="Video Editing">
+            <iframe class="card-img-top" src="https://www.youtube.com/embed/VDJlHAq0KR0" frameborder="0" allowfullscreen></iframe>
             <div class="card-body">
-              <h5 class="card-title">Video Editing</h5>
-              <p class="card-text">Layanan pengeditan video profesional untuk membuat video menarik dan berkualitas tinggi.</p>
-              <a href="{{ url('/portfolio/video-editing') }}" class="btn btn-primary">Lihat Detail</a>
+              <h5 class="card-title">Fortifikasi Pangan</h5>
+              <p class="card-text">Video animasi yang menjelaskan pentingnya fortifikasi pangan untuk kesehatan masyarakat.</p>
+              <a href="{{ url('/portfolio/fortifikasi-pangan') }}" class="btn btn-primary">Lihat Detail</a>
             </div>
           </div>
         </div>
   
-        <!-- Web Development Card -->
-        <div class="col-lg-4 col-md-6">
+        <!-- MSIB Card -->
+        <div class="col-lg-4">
           <div class="card">
-            <img class="card-img-top" src="{{ asset('landing-page/img/portfolio/web-development.jpg') }}" alt="Web Development">
+            <iframe class="card-img-top" src="https://www.youtube.com/embed/5RWIf2AVL2U" frameborder="0" allowfullscreen></iframe>
             <div class="card-body">
-              <h5 class="card-title">Web Development</h5>
-              <p class="card-text">Solusi web khusus yang dikembangkan dengan teknologi terkini untuk meningkatkan kehadiran online Anda.</p>
-              <a href="{{ url('/portfolio/web-development') }}" class="btn btn-primary">Lihat Detail</a>
+              <h5 class="card-title">MSIB</h5>
+              <p class="card-text">Video animasi yang membantu meningkatkan kesadaran dan edukasi masyarakat tentang MSIB.</p>
+              <a href="{{ url('/portfolio/msib') }}" class="btn btn-primary">Lihat Detail</a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  
